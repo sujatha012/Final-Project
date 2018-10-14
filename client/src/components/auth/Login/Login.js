@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import classnames from "classnames";
 import { loginUser } from "../../../actions/authactions";
 
-import "./Login.css";
+
 
 
 class Login extends Component {
@@ -82,7 +82,7 @@ class Login extends Component {
                      {errors.password && (<div className = "invalid-feedback">{errors.password}</div>)}
                   </div>
                   <input type="submit" 
-                  className="btn btn-info btn-block mt-4"   />
+                  className="btn btn-success btn-block mt-4"   />
                 </form>
               </div>
             </div>

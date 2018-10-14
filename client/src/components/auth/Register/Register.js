@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from "prop-types";
-import "./Register.css";
 import { withRouter } from "react-router-dom";
 import classnames from "classnames";
 import { connect } from "react-redux";
@@ -107,7 +106,7 @@ componentWillReceiveProps(nextProps){
                   {errors.password2 && (<div className = "invalid-feedback">{errors.password2}</div>)}
                   </div>
                   <input type="submit" 
-                  className="btn btn-lg btn-block mt-4" />
+                  className="btn btn-lg btn-success btn-block mt-4" />
                 </form>
               </div>
             </div>

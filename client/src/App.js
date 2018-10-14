@@ -7,9 +7,12 @@ import {setCurrentUser} from "./actions/authactions"
 import store from "./store";
 import Navbar from "./components/Layout/Navbar/Navbar";
 import Footer from "./components/Layout/Footer/Footer";
-import Landing from "./components/Layout/Landing/Landing";
+// import Landing from "./components/Layout/Landing/Landing";
 import Login from "././components/auth/Login/Login";
 import Register from "././components/auth/Register/Register";
+import Services from "./pages/Services";
+import About from "./pages/About";
+import Checkout from "./pages/Checkout";
 
 import './App.css';
 
@@ -31,10 +34,13 @@ class App extends Component {
         <Router>
           <div className="App">
             <Navbar />
-            <Route exact path="/" component={Landing} />
+            <Route exact path="/" component={About} />
             <div className="Container">
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/services" component={Services} />
+              <Route exact path="/checkout" component={Checkout} />
             </div>
             <Footer/>
             </div>
