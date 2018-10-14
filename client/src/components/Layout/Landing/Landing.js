@@ -14,7 +14,7 @@ export default class Landing extends Component {
                 <h1 className="display-3 mb-4"> We Believe in The Magic of Wrapping!
                 </h1>
                 <p className="lead">
-                <p>With the holiday seasons right around the corner let us help you, and put your mind at easy.  Bring your gifts to us 
+                <p>With the holiday seasons right around the corner let us help you, and put your mind at ease.  Bring your gifts to us 
                   and we will wrap it up for you. We have been doing this for over 25 years. We are the best in the business.</p>
 
                 <p>Our biggest goal is to help you take the stress and worry out of gift presentation so you can focus on the things in 
