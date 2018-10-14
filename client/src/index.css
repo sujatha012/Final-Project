@@ -14,6 +14,15 @@ div[data-reactroot] {
   background-color: #F8F8FF;
 }
 
+.tableStyle {
+  margin: auto;
+  width: 50%;
+}
+
+.img-thumbnail {
+  width:200px;
+  height:200px;
+  object-fit:cover;
 .product-listing {
   display: flex;
   flex: 1;
