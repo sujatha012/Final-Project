@@ -4,10 +4,15 @@
 }
 
 .nav-link{
-  color:rgb(136, 30, 30);
+  color:rgb(243, 12, 12);
   font-weight: bold;
 }
 .display-3{
-  color: rgb(136, 30, 30)
+  color: red;
+  font-weight: bolder;
 
+}
+.lead{
+  color: green;
+  font-weight: bold;
 }

@@ -5,7 +5,7 @@ img {
 
 .landing {
   position: relative;
-  background: url('./img/authentication.jpg') no-repeat;
+  background: url('./img/cover.jpeg') no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -18,7 +18,7 @@ img {
 }
 
 .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.37);
+  background-color: rgba(0, 0, 0, 0.082);
   position: absolute;
   top: 0;
   left: 0;
