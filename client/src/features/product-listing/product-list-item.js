@@ -29,6 +29,7 @@ export default function ProductListItem(props) {
                       />
                     : null
             }
+
             
         </div>
     </div>

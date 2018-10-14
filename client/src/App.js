@@ -7,11 +7,14 @@ import {setCurrentUser} from "./actions/authactions"
 import store from "./store";
 import Navbar from "./components/Layout/Navbar/Navbar";
 import Footer from "./components/Layout/Footer/Footer";
-import Landing from "./components/Layout/Landing/Landing";
+// import Landing from "./components/Layout/Landing/Landing";
 import Login from "././components/auth/Login/Login";
 import Services from "../src/components/services/Services";
 import Checkout from "../src/components/checkout/Checkout";
 import Register from "././components/auth/Register/Register";
+import Services from "./pages/Services";
+import About from "./pages/About";
+import Checkout from "./pages/Checkout";
 
 import './App.css';
 

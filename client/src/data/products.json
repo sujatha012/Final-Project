@@ -23,7 +23,9 @@
   {
     "id": 4,
     "name": "Ornament Decoration",
-    "price": 11.99 ,
+
+    "price": 11.99,
+
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "image": "http://www.twopinkcanaries.com/wp-content/uploads/2016/10/pretty_christmas_wrapping_ideas_7.jpg"
   },

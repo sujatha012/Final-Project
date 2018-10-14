@@ -5,6 +5,7 @@ import{ connect } from "react-redux";
 import {logoutUser } from "../../../actions/authactions"
 
 import './Navbar.css';
+
 class Navbar extends Component {
   onLogoutClick(e){
     e.preventDefault();
@@ -42,25 +43,91 @@ class Navbar extends Component {
       </ul>
     );
     return (
-      <div>
-          <nav className="navbar navbar-expand-sm navbar bg mb-4">
-            <Link className="navbar-brand" to="/">
-            The Magic of Wrapping
-            </Link>
-            <button className="navbar-toggler" 
+      <nav className="navbar navbar-expand-lg navbar-light ">
+        <Link className="navbar-brand" to="/">
+          Magic Of Wrapping
+        </Link>
+        <div>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link
+                to="/"
+                className={
+                  window.location.pathname === "/" || window.location.pathname === "/about"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/services"
+                className={
+                  window.location.pathname === "/services"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                Services
+              </Link>
+            </li>
+            <li className="nav-item">
+                <div className="collapse navbar-collapse" 
+                id="mobile-nav">
+                {isAuthenticated ? authLinks : guestLinks}
+                </div>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/checkout"
+                className={
+                  window.location.pathname === "/checkout"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+              >
+                <i class="fas fa-shopping-cart">Cart</i>
+              </Link>
+            </li>
+          </ul>
+          <button className="navbar-toggler" 
             type="button" 
             data-toggle="collapse" 
             data-target="#mobile-nav">
             <span className="navbar-toggler-icon"></span>
             </button>
+        </div>
+      </nav>
+    );
+    
+    
+    
+    
+    
+    // (
+    //   <div>
+    //       <nav className="navbar navbar-expand-sm navbar bg-light">
+    //         <Link className="navbar-brand" to="/">
+    //         Magic of Wrapping
+    //         </Link>
+    //         <button className="navbar-toggler" 
+    //         type="button" 
+    //         data-toggle="collapse" 
+    //         data-target="#mobile-nav">
+    //         <span className="navbar-toggler-icon"></span>
+    //         </button>
 
-            <div className="collapse navbar-collapse" 
-            id="mobile-nav">
-            {isAuthenticated ? authLinks : guestLinks}
-            </div>
-          </nav>
-          </div>
-    )
+    //         <div className="collapse navbar-collapse" 
+    //         id="mobile-nav">
+    //         {isAuthenticated ? authLinks : guestLinks}
+    //         </div>
+    //       </nav>
+    //       </div>
+    // )
+
+
   }
 }
 Navbar.PropTypes = {

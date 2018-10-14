@@ -1,8 +1,12 @@
-.navbar{
+/* .navbar{
   background-color: green; 
 }
 .navbar-brand{
   color: rgb(136, 30, 30);
   font-weight: bolder;
   font-size: 25px
+} */
+
+nav.navbar.navbar-default {
+  margin-bottom: 0;
 }
