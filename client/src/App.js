@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route } from "react-router-dom";
-import { Provider } from "react-redux";
+
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
 import {setCurrentUser} from "./actions/authactions"
@@ -9,6 +9,8 @@ import Navbar from "./components/Layout/Navbar/Navbar";
 import Footer from "./components/Layout/Footer/Footer";
 import Landing from "./components/Layout/Landing/Landing";
 import Login from "././components/auth/Login/Login";
+import Services from "../src/components/services/Services";
+import Checkout from "../src/components/checkout/Checkout";
 import Register from "././components/auth/Register/Register";
 
 import './App.css';
@@ -27,19 +29,21 @@ if(localStorage.jwtToken){
 class App extends Component {
   render() {
     return (
-      <Provider store = { store } >
+      // <Provider store = { store } >
         <Router>
           <div className="App">
             <Navbar />
             <Route exact path="/" component={Landing} />
+            <Route exact path="/services" component={Services} />
             <div className="Container">
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
             </div>
+            <Route exact path="/checkout" component={Checkout} />
             <Footer/>
             </div>
         </Router>
-      </Provider>
+      // </Provider>
     );
   }
 }

@@ -1,6 +1,9 @@
 .bg{
   background-color: green; 
-  color: rgb(136, 30, 30);
+  color:red;
   height: 50px;
+  /* font-weight: bold; */
+  font-size: 10;
+
   
 }
