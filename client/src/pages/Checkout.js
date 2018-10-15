@@ -29,7 +29,7 @@ class Checkout extends Component {
                 <br />
                 <br />
                 <Cart />
-                <StripeProvider stripe={this.state.stripe} apiKey="pk_test_YYmTL5Vf3nhVg9Xp5jc6GU3M">
+                <StripeProvider stripe={this.state.stripe}>
                     <div className="example">
                         <h2>Payment</h2>
 
