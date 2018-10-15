@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route } from "react-router-dom";
+import {Elements, StripeProvider} from "react-stripe-elements";
 
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
@@ -7,14 +8,18 @@ import {setCurrentUser} from "./actions/authactions"
 import store from "./store";
 import Navbar from "./components/Layout/Navbar/Navbar";
 import Footer from "./components/Layout/Footer/Footer";
-// import Landing from "./components/Layout/Landing/Landing";
+ import Landing from "./components/Layout/Landing/Landing";
 import Login from "././components/auth/Login/Login";
-import Services from "../src/components/services/Services";
-import Checkout from "../src/components/checkout/Checkout";
+// import Services from "././components/services/Services";
+// import Checkout from "././components/checkout/Checkout";
 import Register from "././components/auth/Register/Register";
 import Services from "./pages/Services";
 import About from "./pages/About";
+import InjectedCheckoutForm from "./components/checkout/Checkout";
+
+
 import Checkout from "./pages/Checkout";
+
 
 import './App.css';
 
@@ -30,6 +35,20 @@ if(localStorage.jwtToken){
 }
 
 class App extends Component {
+    constructor() {
+        super();
+        this.state = {stripe: null};
+    }
+    componentDidMount() {
+        if (window.Stripe) {
+            this.setState({stripe: window.Stripe('pk_test_YYmTL5Vf3nhVg9Xp5jc6GU3M')});
+        } else {
+            document.querySelector('#stripe-js').addEventListener('load', () => {
+                // Create Stripe instance once Stripe.js loads
+                this.setState({stripe: window.Stripe('pk_test_YYmTL5Vf3nhVg9Xp5jc6GU3M')});
+            });
+        }
+    }
   render() {
     return (
       // <Provider store = { store } >
@@ -44,6 +63,7 @@ class App extends Component {
               <Route exact path="/login" component={Login} />
             </div>
             <Route exact path="/checkout" component={Checkout} />
+
             <Footer/>
             </div>
         </Router>
