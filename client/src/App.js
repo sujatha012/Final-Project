@@ -14,10 +14,10 @@ import Login from "././components/auth/Login/Login";
 import Register from "././components/auth/Register/Register";
 import Services from "./components/services/Services";
 import About from "./components/About";
-import InjectedCheckoutForm from "./components/checkout/Checkout";
+import CheckoutForm from "./components/checkout/CheckoutForm";
 
 
-import Checkout from "./pages/Checkout";
+import Checkout from "./components/checkout/Checkout";
 
 
 import './App.css';
