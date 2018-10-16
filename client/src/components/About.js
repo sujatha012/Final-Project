@@ -38,7 +38,7 @@ const About = () => (
           <p>That’s a wrap!</p> 
           
               <Link to="/services" 
-                className="btn btn-lg mr-2">
+                className="btn btn-lg btn-success">
                 Check our Services
               </Link>
           

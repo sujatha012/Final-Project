@@ -21,6 +21,7 @@ import Checkout from "./components/checkout/Checkout";
 
 
 import './App.css';
+import Complete from './components/Complete';
 
 //Check for token (to prevent user being logged out on page refresh)
 if(localStorage.jwtToken){
@@ -62,6 +63,7 @@ class App extends Component {
               <Route exact path="/login" component={Login} />
             
             <Route exact path="/checkout" component={Checkout} />
+            <Route exact path="/ordercomplete" component={Complete} />
 
             <Footer/>
             </div>
