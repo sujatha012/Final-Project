@@ -14,7 +14,7 @@ import Checkout from "../src/components/checkout/Checkout";
 import Register from "././components/auth/Register/Register";
 import About from "././components/About"
 import Complete from "././components/Complete"
-import Countdown from '././components/Countdown';
+// import Countdown from '././components/Countdown';
 
 import './App.css';
 
