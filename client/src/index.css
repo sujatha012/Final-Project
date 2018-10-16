@@ -56,21 +56,14 @@ h3{
   width:200px;
   height:200px;
   object-fit:cover;
+
 }
-<<<<<<< HEAD
 .Countdown{
   margin: 60px auto;
   padding-bottom: 20px;
   color: red;
-  background-image:url('./img/xmas-eve.jpg') no-repeat;
-=======
-Countdown{
-  margin: 60px auto;
-  padding-bottom: 20px;
-  color: red;
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
-  background-position: center;
 }
+
 
 /* .Countdown-col{
   display: inline-block;
@@ -84,47 +77,29 @@ Countdown{
 
 
 .Countdown-col-element1{
-<<<<<<< HEAD
+
   font-size: 80px;
-=======
+
   font-size: 60px;
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
   color: red;
   text-align: center;
   
 }
 .Countdown-col-element2{
-<<<<<<< HEAD
-  font-size: 80px;
-=======
   font-size: 60px;
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
   color: red;
   text-align: center;
   
 }
 .Countdown-col-element3{
-<<<<<<< HEAD
-  font-size: 80px;
-  color: red;
-=======
   font-size: 60px;
   color:red;
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
   text-align: center;
   
 }
 .Countdown-col-element4{
-<<<<<<< HEAD
-  font-size: 80px;
-  color: red;
-  text-align: center;
-  
-}
-=======
   font-size: 60px;
   color: red;
   text-align: center;
   
 }
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689

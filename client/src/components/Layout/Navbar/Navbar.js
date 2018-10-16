@@ -36,36 +36,20 @@ class Navbar extends Component {
         </a>
         </li>
         <li className="nav-item">
-<<<<<<< HEAD
-          <Link className="nav-link" to="/checkout">
-          <i class="fas fa-shopping-cart">Cart</i>
-          </Link>
-        </li>
-        
-=======
              <Link className="nav-link" to="/checkout">
               <i class="fas fa-shopping-cart">Cart</i>
           </Link>
       </li>
                 
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
       </ul>
     );
     const guestLinks =(
       <ul className="navbar-nav ml-auto">
-<<<<<<< HEAD
-         <li className="nav-item">
-          <Link className="nav-link" to="/services">
-          Services
-          </Link>
-        </li>
-=======
       <li className="nav-item">
           <Link className="nav-link" to="/services">
           Services
           </Link>
       </li>
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
         <li className="nav-item">
           <Link className="nav-link" to="/register">
           Sign Up
@@ -76,19 +60,11 @@ class Navbar extends Component {
           Login
           </Link>
         </li>
-<<<<<<< HEAD
-        <li className="nav-item">
-          <Link className="nav-link" to="/checkout">
-          <i class="fas fa-shopping-cart">Cart</i>
-          </Link>
-        </li>
-=======
       <li className="nav-item">
              <Link className="nav-link" to="/checkout">
               <i class="fas fa-shopping-cart">Cart</i>
           </Link>
       </li>
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
       </ul>
     );
     return (

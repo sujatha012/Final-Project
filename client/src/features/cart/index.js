@@ -1,61 +1,6 @@
 import React from "react"
 import { connect } from "react-redux"
 
-<<<<<<< HEAD
-function sort(items) {
-    return items.sort((a,b) => a.id < b.id)
-}
-
-function Cart (props) {
-    return <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th>Item</th>
-                <th>Quantity</th>
-                <th>Price</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            {
-                sort(props.cart).map(item => <tr>
-                    <td>
-                        <img className="img-thumbnail"
-                            title={ item.name }
-                            src={item.image}
-                        />                        
-                    </td>
-                    <td>{ item.name }</td>
-                    <td>{ item.quantity }</td>
-                    <td>${ item.price * item.quantity}</td>
-                    <td>
-                        <button type="button" class="btn btn-success"
-                            onClick={() => props.addToCart(item)}
-                        >+</button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn btn-danger"
-                            onClick={() => props.removeFromCart(item)}
-                        >-</button>
-                    </td>
-                    <td><button type="button" class="btn btn-danger"
-                            onClick={() => props.removeAllFromCart(item)}
-                        >Remove all from cart</button>
-                    </td>
-                    </tr>)
-            }
-        </tbody>
-    </table>
-}
-
-function mapStateToProps(state) {
-    return {
-        cart: state.cart,
-    }
-}
-
-=======
 
 function sort(items) {
     return items.sort((a,b) => a.id < b.id)
@@ -110,7 +55,6 @@ function mapStateToProps(state) {
     }
 }
 
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
 function mapDispatchToProps(dispatch) {
     return {
         addToCart: (item) => {
@@ -125,10 +69,6 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-<<<<<<< HEAD
-export default connect(mapStateToProps, mapDispatchToProps)(Cart)
-=======
 export default connect(mapStateToProps, mapDispatchToProps)(Cart)
 
 
->>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
