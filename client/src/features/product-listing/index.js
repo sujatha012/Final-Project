@@ -1,6 +1,6 @@
 import React from "react"
-import { connect } from "react-redux"
 import ProductListItem from "./product-list-item"
+import { connect } from "react-redux"
 import { cartItemsWithQuantity } from "../cart"
 
 function ProductListing(props) {
@@ -10,7 +10,8 @@ function ProductListing(props) {
             <ProductListItem 
                 product={product}
                 addToCart={props.addToCart}
-                cart={cartItemsWithQuantity(props.cart)}
+                removeFromCart={props.removeFromCart}
+                cartItem={props.cart.filter( cartItem => cartItem.id === product.id)[0]}
             />)
         }
     </div>

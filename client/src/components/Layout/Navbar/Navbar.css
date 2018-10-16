@@ -2,7 +2,11 @@
   background-color: green; 
 }
 .navbar-brand{
-  color: rgb(136, 30, 30);
+  color: red;
   font-weight: bolder;
   font-size: 25px
+}
+
+.nav-link{
+  color: red;
 }

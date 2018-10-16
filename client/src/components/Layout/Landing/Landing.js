@@ -13,6 +13,7 @@ export default class Landing extends Component {
               <div className="col-md-12 text-center">
                 <h1 className="display-3 mb-4"> We Believe in The Magic of Wrapping!
                 </h1>
+                
                 <p className="lead">
                 <p>With the holiday seasons right around the corner let us help you, and put your mind at ease.  Bring your gifts to us 
                   and we will wrap it up for you. We have been doing this for over 25 years. We are the best in the business.</p>

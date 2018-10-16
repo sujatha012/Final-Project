@@ -12,11 +12,18 @@ class Navbar extends Component {
   }
 
   render() {
+    const currentDate = new Date();
+    const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
     const { isAuthenticated, user} = this.props.auth;
 
     const authLinks =(
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
+          <Link className="nav-link" to="/services">
+          Services
+          </Link>
+        </li>
+        <li>
         <a 
           href = "#" 
           onClick= { this.onLogoutClick.bind(this)} 
@@ -29,6 +36,11 @@ class Navbar extends Component {
     );
     const guestLinks =(
       <ul className="navbar-nav ml-auto">
+         <li className="nav-item">
+          <Link className="nav-link" to="/services">
+          Services
+          </Link>
+        </li>
         <li className="nav-item">
           <Link className="nav-link" to="/register">
           Sign Up

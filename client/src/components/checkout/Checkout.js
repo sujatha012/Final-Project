@@ -1,17 +1,13 @@
 import React, { Component } from "react";
 
-class Checkout extends Component {
-  
-  render() {
-    return (
-      <div>
-       
-        <h1 className="text-center">checkout cart goes here</h1><br/><br/>
-      
-      </div>
-    );
-  }
+import Cart from "../../features/cart"
+
+export default function Checkout(props) {
+  return <div className="tableStyle">
+  <br />
+    <h1>Check Out</h1>
+  <br />
+  <br />
+    <Cart />
+  </div>
 }
-
-
-export default Checkout;
