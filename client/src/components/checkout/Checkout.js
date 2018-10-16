@@ -1,8 +1,8 @@
 import React , {Component} from "react"
 import {Elements, StripeProvider} from "react-stripe-elements";
-import Cart from "../features/cart"
+import Cart from "../../features/cart"
 
-import CheckoutForm from "../components/checkout/Checkout";
+import CheckoutForm from "./CheckoutForm";
 
 
 class Checkout extends Component {
