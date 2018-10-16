@@ -35,4 +35,8 @@ const cartReducer = (state=[], action) => {
     }
 }
 
+<<<<<<< HEAD
 export default cartReducer;
+=======
+export default cartReducer
+>>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689

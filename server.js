@@ -5,10 +5,15 @@ const passport = require("passport");
 const path = require('path');
 const users = require("./routes/api/users");
 const cart = require("./routes/api/cart");
+const payment = require("./routes/api/payment");
+
+
+
+
 
 //initiallizing app
 const app = express();
-
+app.use(require("body-parser").text());
 //Body parser middleware
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
@@ -32,7 +37,7 @@ require("./config/passport")(passport);
 //Use Routes
 app.use("/api/users",users);
 app.use("/api/cart",cart);
-
+app.use("/api/payment",payment);
 
 const port = process.env.PORT || 5000;
 

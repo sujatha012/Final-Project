@@ -126,4 +126,8 @@ Countdown.defaultProps = {
   date: new Date()
 };
 
+<<<<<<< HEAD
 export default Countdown;
+=======
+export default Countdown;
+>>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689

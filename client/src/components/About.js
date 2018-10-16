@@ -4,6 +4,11 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import Countdown from "../components/Countdown";
+<<<<<<< HEAD
+=======
+import {Link} from "react-router-dom";
+
+>>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
 
 
 const About = () => (
@@ -12,7 +17,11 @@ const About = () => (
     <Hero backgroundImage="http://longwallpapers.com/Desktop-Wallpaper/holiday-wallpaper-hd-resolution-For-Desktop-Wallpaper.jpg">
       {/* <center><iframe width="360" height="480" src="https://w2.countingdownto.com/2280547" frameborder="0"></iframe></center> */}
     
+<<<<<<< HEAD
         <Countdown date={`${(new Date().getMonth() === 11 && new Date().getDate() > 23) ? new Date().getFullYear() + 1 : new Date().getFullYear()}-12-24T00:00:00`} />
+=======
+        <Countdown  date={`${(new Date().getMonth() === 11 && new Date().getDate() > 23) ? new Date().getFullYear() + 1 : new Date().getFullYear()}-12-24T00:00:00`} />
+>>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
         <h3 className="title">until Christmas eve</h3>
 
     </Hero>
@@ -33,10 +42,23 @@ const About = () => (
           <p>Our biggest goal is to help you take the stress and worry out of gift presentation so you can focus on the things in 
             your life that really matter.  We are here to bring your ideas to life.</p>
 
+<<<<<<< HEAD
           <p>That’s a wrap!</p>
           
         </Col>
       </Row>
+=======
+          <p>That’s a wrap!</p> 
+          
+              <Link to="/services" 
+                className="btn btn-lg mr-2">
+                Check our Services
+              </Link>
+          
+        </Col>
+      </Row>
+      
+>>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
     </Container>
   </div>
 )

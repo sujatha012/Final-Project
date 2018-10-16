@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+/* .bg{
+  background-color: green; 
+  color:red;
+  height: 50px;
+  /* font-weight: bold; */
+/*  font-size: 10;
+>>>>>>> b483ac33eaf4241f78ec7a1262156b5c9e5dd689
 
 
   
@@ -18,4 +27,20 @@
   padding: 3px;
   text-align: center;
   
+} */
+
+
+.footer {
+  min-height: 100px;
+  position: relative;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  text-align: center;
+  background: #8FBC8F;
 }
