@@ -59,4 +59,18 @@ router.post("/",passport.authenticate("jwt", {session:false }),
   }
     
 );
+router.post("/charge", async (req, res) => {
+  try {
+      let {status} = await stripe.charges.create({
+          amount: 20,
+          currency: "usd",
+          description: "An example charge",
+          source: req.body
+      });
+       res.json({status});
+  } catch (err) {
+      res.status(500).end();
+  }
+});
+
 module.exports = router;

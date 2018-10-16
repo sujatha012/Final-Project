@@ -12,8 +12,7 @@ class Navbar extends Component {
   }
 
   render() {
-    const currentDate = new Date();
-    const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
+  
     const { isAuthenticated, user} = this.props.auth;
 
     const authLinks =(
@@ -32,6 +31,11 @@ class Navbar extends Component {
           Logout
         </a>
         </li>
+        <li className="nav-item">
+             <Link className="nav-link" to="/checkout">
+              <i class="fas fa-shopping-cart">Cart</i>
+          </Link>
+      </li>
       </ul>
     );
     const guestLinks =(
@@ -51,20 +55,27 @@ class Navbar extends Component {
           Login
           </Link>
         </li>
+        {/* <button class="btn btn-outline-success my-2 my-sm-0" >Search</button> */}
+
+        <li className="nav-item my-2 my-sm-0">
+             <Link className="nav-link" to="/checkout">
+              <i class="fas fa-shopping-cart">Cart</i>
+          </Link>
+      </li>
       </ul>
     );
     return (
       <div>
-          <nav className="navbar navbar-expand-sm navbar bg mb-4">
+          <nav className="navbar navbar-expand navbar bg ">
             <Link className="navbar-brand" to="/">
             The Magic of Wrapping
             </Link>
-            <button className="navbar-toggler" 
+            {/* <button className="navbar-toggler" 
             type="button" 
             data-toggle="collapse" 
             data-target="#mobile-nav">
             <span className="navbar-toggler-icon"></span>
-            </button>
+            </button> */}
 
             <div className="collapse navbar-collapse" 
             id="mobile-nav">

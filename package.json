@@ -26,6 +26,8 @@
     "react": "^16.5.2",
     "react-datetime": "^2.15.0",
     "react-dom": "^16.5.2",
+    "react-stripe-elements": "^2.0.1",
+    "stripe": "^6.12.1",
     "validator": "^10.8.0"
   },
   "devDependencies": {

@@ -57,7 +57,7 @@ h3{
   height:200px;
   object-fit:cover;
 }
-.Countdown{
+Countdown{
   margin: 60px auto;
   padding-bottom: 20px;
   color: red;
@@ -77,25 +77,25 @@ h3{
 
 
 .Countdown-col-element1{
-  font-size: 80px;
+  font-size: 60px;
   color: red;
   text-align: center;
   
 }
 .Countdown-col-element2{
-  font-size: 80px;
+  font-size: 60px;
   color: red;
   text-align: center;
   
 }
 .Countdown-col-element3{
-  font-size: 80px;
-  color: red;
+  font-size: 60px;
+  color:red;
   text-align: center;
   
 }
 .Countdown-col-element4{
-  font-size: 80px;
+  font-size: 60px;
   color: red;
   text-align: center;
   

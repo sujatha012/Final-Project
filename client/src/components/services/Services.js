@@ -9,17 +9,25 @@ class Services extends Component {
   render() {
     return (
       <div>
+        
         <ProductListing products={data} />
-         <div className="buton">
-          <Link to="/login" 
-          className="btn btn-lg mr-2">
-          Log in to order
-          </Link>
-          <Link to="/register" 
-          className="btn btn-lg mr-2">
-          New Members? Register
-          </Link>
-          </div>
+        <div className="buton">
+            <Link to="/Services" 
+            className="btn btn-success">
+            Keep Shopping
+            </Link>
+            <Link to="/Register" 
+            className="btn btn-success">
+            SignUp/Login
+            </Link>
+            <Link to="/checkout" 
+            className="btn btn-success">
+            Continue as guest
+            </Link>
+            
+
+            
+        </div>
           
       </div>
     );
