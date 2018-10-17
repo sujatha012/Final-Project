@@ -9,8 +9,6 @@ import store from "./store";
 import Navbar from "./components/Layout/Navbar/Navbar";
 import Footer from "./components/Layout/Footer/Footer";
 import Login from "././components/auth/Login/Login";
-// import Services from "././components/services/Services";
-// import Checkout from "././components/checkout/Checkout";
 import Register from "././components/auth/Register/Register";
 import Services from "./components/services/Services";
 import About from "./components/About";
