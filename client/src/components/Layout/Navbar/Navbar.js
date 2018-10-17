@@ -73,13 +73,6 @@ class Navbar extends Component {
             <Link className="navbar-brand" to="/">
             The Magic of Wrapping
             </Link>
-            {/* <button className="navbar-toggler" 
-            type="button" 
-            data-toggle="collapse" 
-            data-target="#mobile-nav">
-            <span className="navbar-toggler-icon"></span>
-            </button> */}
-
             <div className="collapse navbar-collapse" 
             id="mobile-nav">
             {isAuthenticated ? authLinks : guestLinks}
@@ -88,33 +81,6 @@ class Navbar extends Component {
       </div>
       
     );
-    
-    
-    
-    
-    
-    // (
-    //   <div>
-    //       <nav className="navbar navbar-expand-sm navbar bg-light">
-    //         <Link className="navbar-brand" to="/">
-    //         Magic of Wrapping
-    //         </Link>
-    //         <button className="navbar-toggler" 
-    //         type="button" 
-    //         data-toggle="collapse" 
-    //         data-target="#mobile-nav">
-    //         <span className="navbar-toggler-icon"></span>
-    //         </button>
-
-    //         <div className="collapse navbar-collapse" 
-    //         id="mobile-nav">
-    //         {isAuthenticated ? authLinks : guestLinks}
-    //         </div>
-    //       </nav>
-    //       </div>
-    // )
-
-
   }
 }
 Navbar.PropTypes = {
