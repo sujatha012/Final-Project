@@ -11,10 +11,10 @@ class Services extends Component {
     return (
       <div>
         <ProductListing products={data} />
-         <div className="buton">
+          <div className="buton">
             <Link to="/login" 
             className="btn btn-success" style={{ marginLeft: 500 }}>
-            Log in to order
+            Log in to proceed
             </Link>
             <Link to="/register" 
             className="btn btn-success"style={{ marginLeft: 10 }}>
