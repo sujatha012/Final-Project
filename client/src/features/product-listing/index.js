@@ -1,9 +1,6 @@
 import React from "react"
-
 import ProductListItem from "./product-list-item"
 import { connect } from "react-redux"
-
-
 
 function ProductListing(props) {
     return <div className="product-listing">
@@ -14,7 +11,6 @@ function ProductListing(props) {
                 addToCart={props.addToCart}
                 removeFromCart={props.removeFromCart}
                 cartItem={props.cart.filter( cartItem => cartItem.id === product.id)[0]}
-
             />)
         }
     </div>
@@ -37,6 +33,4 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-
 export default connect(mapStateToProps, mapDispatchToProps)(ProductListing)
-

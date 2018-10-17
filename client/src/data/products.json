@@ -56,5 +56,12 @@
     "price": 9.99,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "image": "https://i2-prod.mirror.co.uk/incoming/article7034700.ece/ALTERNATES/s615/Christmas-Gift.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Strip Ribbion",
+    "price": 9.99,
+    "description": "",
+    "image": "https://eighteen25.com/wp-content/uploads/2014/12/gift-wrap-ideas-1024x683.jpg"
   }
 ]

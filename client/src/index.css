@@ -56,26 +56,19 @@ h3{
   width:200px;
   height:200px;
   object-fit:cover;
+
 }
-Countdown{
+.Countdown{
   margin: 60px auto;
   padding-bottom: 20px;
   color: red;
-  background-position: center;
 }
-
-/* .Countdown-col{
-  display: inline-block;
-}
-
-.Countdown-col-element{
-  display: inline-block;
-  margin: 0 20px;
-  /* display: flex;
-  flex-direction: column; */
 
 
 .Countdown-col-element1{
+
+  font-size: 80px;
+
   font-size: 60px;
   color: red;
   text-align: center;

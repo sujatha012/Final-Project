@@ -8,9 +8,6 @@ const cart = require("./routes/api/cart");
 const payment = require("./routes/api/payment");
 
 
-
-
-
 //initiallizing app
 const app = express();
 app.use(require("body-parser").text());
