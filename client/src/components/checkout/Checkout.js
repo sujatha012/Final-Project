@@ -1,5 +1,6 @@
 import React , {Component} from "react"
 import {Elements, StripeProvider} from "react-stripe-elements";
+import StripeCheckout from 'react-stripe-checkout';
 import Cart from "../../features/cart"
 import {Link} from "react-router-dom";
 
@@ -11,6 +12,26 @@ class Checkout extends Component {
     constructor() {
         super();
         this.state = {stripe: null};
+    }
+
+    onToken = (token) => {
+        fetch('/api/payment/charge', {
+            method: 'POST',
+            body: JSON.stringify(token),
+        }).then(response => {
+            response.json().then(data => {
+                alert(`We are in business, ${data.email}`);
+            });
+
+        }).catch(err => {
+            console.log("Error " + err);
+        })
+
+        ;
+    }
+
+    amount = (Cart) => {
+         
     }
     componentDidMount() {
         if (window.Stripe) {
@@ -34,17 +55,20 @@ class Checkout extends Component {
                 <br />
                 <br />
                 <br />
-                
+            <StripeCheckout
+                token={this.onToken}
+                amount={this.amount} stripeKey="pk_test_YYmTL5Vf3nhVg9Xp5jc6GU3M" billingAddress={true} shippingAddress={true} zipCode={true} name={"The Magic of Wrapping"}
+            />
                
-                <StripeProvider stripe={this.state.stripe}>
-                    <div className="example">
-                        <h2>Payment</h2>
-                       
-                        <Elements>
-                            <CheckoutForm />
-                        </Elements>
-                    </div>
-                </StripeProvider>
+                {/*<StripeProvider stripe={this.state.stripe}>*/}
+                    {/*<div className="example">*/}
+                        {/*<h2>Payment</h2>*/}
+                       {/**/}
+                        {/*<Elements>*/}
+                            {/*<CheckoutForm />*/}
+                        {/*</Elements>*/}
+                    {/*</div>*/}
+                {/*</StripeProvider>*/}
 
             {/* <div className="buton1">
                 <Link to="/ordercomplete" 
