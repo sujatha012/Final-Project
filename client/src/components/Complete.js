@@ -25,12 +25,13 @@ const Complete = () => (
     <div className="modal-body">
       <h5 style={h5Style} >Order Complete</h5>
       <hr/>
+
       <h5>  Thanks for your order. You will recieve confirmation email shortly.</h5>
          <p > Christmas season can result in longer wait times.
          We highly recommend in order to save the spot 
         at your preferred time and date click the link below to Schedule drop off.</p>
       <h1 style={h1Style}>
-      <a  href="#" class="tooltip-test calendly-inline-widget" href="https://calendly.com/sabeenzehra" 
+      <a  href="#" class="tooltip-test calendly-inline-widget" href="https://calendly.com/" 
       title="Schedule">Schedule</a> </h1>
       <br/>
       <br/>
