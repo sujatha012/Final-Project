@@ -15,12 +15,14 @@ import Register from "././components/auth/Register/Register";
 import Services from "./components/services/Services";
 import About from "./components/About";
 import CheckoutForm from "./components/checkout/CheckoutForm";
+import Dropoff from "./components/Dropoff"
 
 
 import Checkout from "./components/checkout/Checkout";
 
 
 import './App.css';
+import Complete from './components/Complete';
 
 //Check for token (to prevent user being logged out on page refresh)
 if(localStorage.jwtToken){
@@ -54,16 +56,16 @@ class App extends Component {
         <Router>
           <div className="App">
             <Navbar />
-             <Route exact path="/" component={About} />
+            <Route exact path="/" component={About} />
             <Route exact path="/services" component={Services} />
-            <div className="Container">
-              <Route exact path="/register" component={Register} />
-              <Route exact path="/login" component={Login} />
-            </div>
+            <Route exact path="/register" component={Register} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/dropoff" component={Dropoff} />
             <Route exact path="/checkout" component={Checkout} />
-
+            <Route exact path="/ordercomplete" component={Complete} />
             <Footer/>
-            </div>
+        </div>
+        
         </Router>
      
     );

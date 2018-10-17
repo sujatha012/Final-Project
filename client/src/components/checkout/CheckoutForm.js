@@ -1,6 +1,5 @@
-import React , {Component} from "react"
+import React, {Component} from 'react';
 import {CardElement, injectStripe} from 'react-stripe-elements';
-
 
 class CheckoutForm extends Component {
     constructor(props) {
@@ -31,5 +30,4 @@ class CheckoutForm extends Component {
     }
 }
 
-// export default injectStripe(CheckoutForm);
-export default (CheckoutForm);
+export default injectStripe(CheckoutForm);

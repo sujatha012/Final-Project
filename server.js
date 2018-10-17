@@ -10,8 +10,6 @@ const payment = require("./routes/api/payment");
 
 //initiallizing app
 const app = express();
-
-
 app.use(require("body-parser").text());
 //Body parser middleware
 app.use(bodyParser.urlencoded({extended:false}));
@@ -36,7 +34,7 @@ require("./config/passport")(passport);
 //Use Routes
 app.use("/api/users",users);
 app.use("/api/cart",cart);
-
+app.use("/api/payment",payment);
 
 app.use("/api/payment",payment);
 

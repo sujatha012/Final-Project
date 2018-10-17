@@ -1,6 +1,7 @@
 import React from "react"
 import { connect } from "react-redux"
 
+
 function sort(items) {
     return items.sort((a,b) => a.id < b.id)
 }
@@ -69,3 +70,5 @@ function mapDispatchToProps(dispatch) {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cart)
+
+

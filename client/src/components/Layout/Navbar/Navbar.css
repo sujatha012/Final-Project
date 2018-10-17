@@ -7,10 +7,14 @@
   font-size: 25px
 }
 
-.nav-link{
-  color: red;
+nav.navbar.navbar-default {
+  margin-bottom: 0;
 }
 
-Link{
-  color:red;
+.nav-link{
+  color: red;
+  font-size: 18px;
+ 
+
+
 }
