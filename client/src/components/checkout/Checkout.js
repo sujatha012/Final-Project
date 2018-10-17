@@ -46,12 +46,12 @@ class Checkout extends Component {
                     </div>
                 </StripeProvider>
 
-            <div className="buton1">
-                <Link to="/dropoff" 
+            {/* <div className="buton1">
+                <Link to="/ordercomplete" 
                 className="btn btn-lg btn-success">
                 Ready to schedule dropoff? 
                 </Link>
-            </div>
+            </div> */}
             
 
         </div>

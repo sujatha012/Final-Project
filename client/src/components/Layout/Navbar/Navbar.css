@@ -2,7 +2,7 @@
   background-color: green; 
 }
 .navbar-brand{
-  color: red;
+  color: white;
   font-weight: bolder;
   font-size: 25px
 }
@@ -12,8 +12,9 @@ nav.navbar.navbar-default {
 }
 
 .nav-link{
-  color: red;
+  color: white;
   font-size: 18px;
+
  
 
 

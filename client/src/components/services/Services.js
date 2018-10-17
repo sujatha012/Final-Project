@@ -14,15 +14,15 @@ class Services extends Component {
         <ProductListing products={data} />
           <div className="buton">
             <Link to="/login" 
-            className="btn btn-success" style={{ marginLeft: 500 }}>
+            className="btn btn-outline-success" style={{ marginLeft: 500 }}>
             Log in to proceed
             </Link>
             <Link to="/register" 
-            className="btn btn-success"style={{ marginLeft: 10 }}>
+            className="btn btn-outline-success"style={{ marginLeft: 10 }}>
             New Members? Register
             </Link>
             <Link to="/checkout" 
-            className="btn btn-success"style={{ marginLeft: 10 }}>
+            className="btn btn-outline-success"style={{ marginLeft: 10 }}>
              Continue as guest
             </Link>
 

@@ -1,25 +1,22 @@
-import React from "react";
-import Calendly from "./Calendly"
-import {Link} from "react-router-dom";
+// import React from "react";
+// import Calendly from "./Calendly"
+// import {Link} from "react-router-dom";
 
 
-// const divStyle = {
-//   height: '500px',
+// // const divStyle = {
+// //   height: '500px',
   
-// };
-const Dropoff = () => (
+// // };
+// const Dropoff = () => (
 
-  <div  >
-  {/* // style={divStyle}> */}
+//   <div  >
+  
 
-  < Calendly />
-   {/* <Link to="/checkout" 
-        className="btn btn-success"style={{ marginLeft: 10 }}>
-        Continue to Checkout
-    </Link> */}
+//   < Calendly />
+  
 
-  </div>
-)
+//   </div>
+// )
 
-export default Dropoff;
+// export default Dropoff;
                 
