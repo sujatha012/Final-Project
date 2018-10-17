@@ -18,8 +18,7 @@ export default function ProductListItem(props) {
                 product={props.product} 
                 addToCart={props.addToCart} 
             />
-            <br />
-            <br />
+        <br/><br/>
             {
                 props.cartItem
                     ? <RemoveBtn 

@@ -27,7 +27,7 @@ class CheckoutForm extends Component {
                 <p>Would you like to complete the purchase?</p>
                 <CardElement />
                 <Link to="/ordercomplete" 
-                 className="btn btn-success" onClick={this.submit}>
+                 className="btn btn-outline-success" onClick={this.submit}>
                  Send
                 </Link>
             </div>

@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Countdown from "../components/Countdown";
+// import Countdown from "../components/Countdown";
 import {Link} from "react-router-dom";
 
 
@@ -27,7 +27,7 @@ const About = () => (
       <br />
       <Row>
         <Col size="md-12">
-          <p>PREMIER GIFT WRAPPING</p>    
+             
 
           <p>With the holiday seasons right around the corner let us help you, and put your mind at easy.  Bring your gifts to us 
             and we will wrap it up for you. We have been doing this for over 25 years. We are the best in the business.</p>
@@ -38,7 +38,7 @@ const About = () => (
           <p>That’s a wrap!</p> 
           
               <Link to="/services" 
-                className="btn btn-lg btn-success">
+                className="btn btn-outline-success">
                 Check our Services
               </Link>
           

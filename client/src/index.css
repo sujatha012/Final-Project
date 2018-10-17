@@ -28,8 +28,8 @@ div[data-reactroot] {
 }
 
 .imgSize{
-  width:400px;
-  height:400px;
+  width:350px;
+  height:300px;
   object-fit:cover;
 }
 
@@ -66,12 +66,9 @@ Countdown{
 
 
 .Countdown-col-element1{
-<<<<<<< HEAD
-=======
 
   font-size: 80px;
 
->>>>>>> 691006ba2daaae5796a08ffc18dab013bb480ef3
   font-size: 60px;
   color: red;
   text-align: center;

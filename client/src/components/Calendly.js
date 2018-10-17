@@ -8,9 +8,11 @@ const Calendly = () => (
     < br/>< br/>< br/>
     
   
-    <a href="https://calendly.com/sabeenzehra/15mints" onclick="Calendly.showPopupWidget('https://calendly.com/sabeenzehra');
-    return false;">
+    <a href="https://calendly.com/magicofwrapping-1/packages-dropoff" onclick="Calendly.showPopupWidget('https://calendly.com/magicofwrapping-1');return false">;
+    
     Schedule drop off </a>
+   
+
     < br/>
     < br/>
     < br/>

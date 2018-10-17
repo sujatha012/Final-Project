@@ -30,7 +30,7 @@ function Cart (props) {
                     <td>{ item.quantity }</td>
                     <td>${ item.price * item.quantity}</td>
                     <td>
-                        <button type="button" class="btn btn-success"
+                        <button type="button" class="btn btn-sm btn-outline-success"
                             onClick={() => props.addToCart(item)}
                         >+</button>
                     </td>

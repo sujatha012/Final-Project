@@ -54,7 +54,7 @@ class Login extends Component {
         <div className="login">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 m-auto">
+              <div className="col-md-8 m-auto"><br/><br/><br/>
                 <h1 className="display-4 text-center">Log In</h1>
                 <p className="lead text-center">Sign in to your  account</p>
                 <form onSubmit= {this.onSubmit}>
@@ -84,7 +84,7 @@ class Login extends Component {
                   </div>
                   <input type="submit" 
                   className="btn btn-success btn-block mt-4"   />
-                </form>
+                </form><br/><br/>
               </div>
             </div>
           </div>

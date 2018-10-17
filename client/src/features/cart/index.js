@@ -30,16 +30,16 @@ function Cart (props) {
                     <td>{ item.quantity }</td>
                     <td>${ item.price * item.quantity}</td>
                     <td>
-                        <button type="button" class="btn btn-success"
+                        <button type="button" class="btn btn-outline-success"
                             onClick={() => props.addToCart(item)}
                         >+</button>
-                    </td>
+                    </td><br/>
                     <td>
-                        <button type="button" class="btn btn-danger"
+                        <button type="button" class="btn btn-outline-danger"
                             onClick={() => props.removeFromCart(item)}
                         >-</button>
                     </td>
-                    <td><button type="button" class="btn btn-danger"
+                    <td><button type="button" class="btn btn-outline-danger"
                             onClick={() => props.removeAllFromCart(item)}
                         >Remove all from cart</button>
                     </td>
