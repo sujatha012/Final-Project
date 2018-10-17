@@ -26,7 +26,7 @@ const Complete = () => (
       <h5 style={h5Style} >Order Complete</h5>
       <hr/>
       <h5>  Thanks for your order. You will recieve confirmation email shortly.</h5>
-         <p > Christmas season can results in longer wait times.
+         <p > Christmas season can result in longer wait times.
          We highly recommend in order to save the spot 
         at your preferred time and date click the link below to Schedule drop off.</p>
       <h1 style={h1Style}>

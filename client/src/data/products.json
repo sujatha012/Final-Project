@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Strip Ribbion",
     "price": 9.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "Wrap your gift with brown craft paper, and a pretty striped ribbon of your choice for the perfect gift.",
     "image": "https://eighteen25.com/wp-content/uploads/2014/12/gift-wrap-ideas-1024x683.jpg"
   },
   {
     "id": 2,
     "name": "White Christmas",
     "price": 14.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "Whether you have snow this Christmas or not, Magic of Wrapping’ elegant wrap is reminiscent of a white winter wonderland. Dress a simple white box up with various white ribbons and a balsa wood tag. This makes a small gift feel more substantial and elegant.",
     "image": "http://www.twopinkcanaries.com/wp-content/uploads/2016/10/pretty_christmas_wrapping_ideas_14.jpg"
   },
   {
     "id": 3,
     "name": "Knit Bag",
     "price": 17.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "A gift bag is an ideal option for those who want to give a small thing, but at the same time emphasize its beauty. Most often these bags are used for gifts of a variety of accessories and costume jewelry. And what is most interesting, they are ideal for this role. ",
     "image": "http://www.twopinkcanaries.com/wp-content/uploads/2016/10/pretty_christmas_wrapping_ideas_3.jpg"
   },
   {
@@ -26,42 +26,42 @@
 
     "price": 11.99,
 
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "Here at Magic of Wrapping, we love all things packaging. Ornaments can also be humorous and used as a casual stocking stuffer. We think a cutely wrapped gift makes all the difference in making your gift look extra special. Your friends and family will appreciate the extra care you put into their gift!",
     "image": "http://www.twopinkcanaries.com/wp-content/uploads/2016/10/pretty_christmas_wrapping_ideas_7.jpg"
   },
   {
     "id": 5,
     "name": "Joy Ornament",
     "price": 11.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "Display a special moment with a “Joy” ornament. What a joyful way to celebrate this magical time of year. Makes a perfect addition to your thoughtful gift for a friend or family member.",
     "image": "http://www.twopinkcanaries.com/wp-content/uploads/2016/10/pretty_christmas_wrapping_ideas_8.jpg"
   },
   {
     "id": 6,
     "name": "Snowflake Ornament",
     "price": 11.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "What a beautiful way to celebrate the holidays with a snowflake ornament that everyone will love and. Let us bring your dreams to life.",
     "image": "http://www.twopinkcanaries.com/wp-content/uploads/2016/10/pretty_christmas_wrapping_ideas_9.jpg"
   },
   {
     "id": 7,
     "name": "Gold Raindeer",
     "price": 19.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "The gold reindeer is the perfect fun ornament to add to a special gift and take it over the top for your special person. It will put a smile on anyone’s face.",
     "image": "http://www.twopinkcanaries.com/wp-content/uploads/2016/10/pretty_christmas_wrapping_ideas_15.jpg"
   },
   {
     "id": 8,
     "name": "Red Ribbion",
     "price": 9.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique et velit vel faucibus. Mauris lacinia vehicula tellus, et fermentum ex. Duis scelerisque cursus magna, ac accumsan odio rhoncus sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "Going with a red ribbon gift package is a very elegant and classy touch to any gift that you want to give. You can add a red ribbon to  an anniversary, birthday, Christmas, and we can not forget valentine gift.",
     "image": "https://i2-prod.mirror.co.uk/incoming/article7034700.ece/ALTERNATES/s615/Christmas-Gift.jpg"
   },
   {
     "id": 9,
     "name": "Strip Ribbion",
     "price": 9.99,
-    "description": "",
+    "description": "Wrap your gift with brown craft paper, and a pretty striped ribbon of your choice for the perfect gift.",
     "image": "https://eighteen25.com/wp-content/uploads/2014/12/gift-wrap-ideas-1024x683.jpg"
   }
 ]
