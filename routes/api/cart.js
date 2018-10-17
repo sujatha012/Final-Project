@@ -59,22 +59,6 @@ router.post("/",passport.authenticate("jwt", {session:false }),
   }
     
 );
-<<<<<<< HEAD
-router.post("/charge", async (req, res) => {
-  try {
-      let {status} = await stripe.charges.create({
-          amount: 20,
-          currency: "usd",
-          description: "An example charge",
-          source: req.body
-      });
-       res.json({status});
-  } catch (err) {
-      res.status(500).end();
-  }
-});
-
-=======
 
 router.post("/charge", async (req, res) => {
     try {
@@ -90,5 +74,4 @@ router.post("/charge", async (req, res) => {
         res.status(500).end();
     }
 });
->>>>>>> 691006ba2daaae5796a08ffc18dab013bb480ef3
 module.exports = router;
