@@ -5,7 +5,7 @@ export default () => {
     <div>
       
         <footer className="footer">
-        <span>&copy; 2018 Believe in the magic of <strong>WRAPPING</strong></span>
+        <span>&copy; 2018 Believe in the magic of WRAPPING</span>
         </footer>
       </div>
     

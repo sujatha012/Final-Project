@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {CardElement, injectStripe} from 'react-stripe-elements';
+import {Link} from "react-router-dom";
+
 
 class CheckoutForm extends Component {
     constructor(props) {
@@ -24,8 +26,12 @@ class CheckoutForm extends Component {
             <div className="checkout">
                 <p>Would you like to complete the purchase?</p>
                 <CardElement />
-                <button onClick={this.submit}>Send</button>
+                <Link to="/ordercomplete" 
+                 className="btn btn-success" onClick={this.submit}>
+                 Send
+                </Link>
             </div>
+           
         );
     }
 }

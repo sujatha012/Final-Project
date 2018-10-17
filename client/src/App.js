@@ -13,7 +13,7 @@ import Register from "././components/auth/Register/Register";
 import Services from "./components/services/Services";
 import About from "./components/About";
 import CheckoutForm from "./components/checkout/CheckoutForm";
-import Dropoff from "./components/Dropoff"
+// import Dropoff from "./components/Dropoff"
 
 
 import Checkout from "./components/checkout/Checkout";
@@ -58,7 +58,7 @@ class App extends Component {
             <Route exact path="/services" component={Services} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
-            <Route exact path="/dropoff" component={Dropoff} />
+            {/* <Route exact path="/dropoff" component={Dropoff} /> */}
             <Route exact path="/checkout" component={Checkout} />
             <Route exact path="/ordercomplete" component={Complete} />
             <Footer/>
