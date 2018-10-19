@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "proxy": "http://localhost:3001",
-  "homepage": "http://syeda03.github.io/final-project",
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
