@@ -8,41 +8,17 @@ import CheckoutForm from "./CheckoutForm";
 
 
 
-class Checkout extends Component {
+class Checkout extends Component{
     constructor() {
         super();
         this.state = {stripe: null};
+
     }
 
-    onToken = (token) => {
-        fetch('/api/payment/charge', {
-            method: 'POST',
-            body: JSON.stringify(token),
-        }).then(response => {
-            response.json().then(data => {
-                alert(`We are in business, ${data.email}`);
-            });
 
-        }).catch(err => {
-            console.log("Error " + err);
-        })
 
-        ;
-    }
 
-    amount = (Cart) => {
-         
-    }
-    componentDidMount() {
-        if (window.Stripe) {
-            this.setState({stripe: window.Stripe('pk_test_YYmTL5Vf3nhVg9Xp5jc6GU3M')});
-        } else {
-            document.querySelector('#stripe-js').addEventListener('load', () => {
-                // Create Stripe instance once Stripe.js loads
-                this.setState({stripe: window.Stripe('pk_test_YYmTL5Vf3nhVg9Xp5jc6GU3M')});
-            });
-        }
-    }
+
     render() {
         return (
         <div className="tableStyle">
@@ -53,12 +29,9 @@ class Checkout extends Component {
                 <br />
                 <Cart />
                 <br />
+                <r />
                 <br />
-                <br />
-            <StripeCheckout
-                token={this.onToken}
-                amount={this.amount} stripeKey="pk_test_YYmTL5Vf3nhVg9Xp5jc6GU3M" billingAddress={true} shippingAddress={true} zipCode={true} name={"The Magic of Wrapping"}
-            />
+
                
                 {/*<StripeProvider stripe={this.state.stripe}>*/}
                     {/*<div className="example">*/}

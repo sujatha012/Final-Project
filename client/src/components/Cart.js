@@ -6,6 +6,8 @@ function sort(items) {
     return items.sort((a,b) => a.id < b.id)
 }
 
+
+
 function Cart (props) {
     return <table>
         <thead>
@@ -45,6 +47,7 @@ function Cart (props) {
                     </td>
                     </tr>)
             }
+            <tr><td>getTotal(props.cart)</td></tr>
         </tbody>
     </table>
 }
